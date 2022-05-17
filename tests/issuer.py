@@ -31,7 +31,8 @@ class Issuer:
                 "type": ["VerifiableCredential","CapabilitiesCredential"],
                 "credentialSubject": {
                     "capabilities": {
-                        "http://localhost:9000/secure/jwt-vc": ["HTTP_GET"]
+                        "http://localhost:9000/secure/jwt-vc": ["HTTP_GET"],
+                        "http://localhost:9000/secure/jwt-vc-dpop": ["HTTP_GET"]
                     }
                 }
             }
@@ -60,7 +61,8 @@ class Issuer:
                 "type": ["VerifiableCredential","CapabilitiesCredential"],
                 "credentialSubject": {
                     "capabilities": {
-                        "http://localhost:9000/secure/jwt-vc": ["HTTP_GET"]
+                        "http://localhost:9000/secure/jwt-vc": ["HTTP_GET"],
+                        "http://localhost:9000/secure/jwt-vc-dpop": ["HTTP_GET"]
                     }
                 }
             }

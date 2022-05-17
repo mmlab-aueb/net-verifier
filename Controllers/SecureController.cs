@@ -11,9 +11,15 @@ namespace net_verifier.Controllers
             return View();
         }
 
-        [Authorize]
+
         [Authorize(Policy = "VCAuthorization")]
         public IActionResult JWT_VC()
+        {
+            return View();
+        }
+
+        [Authorize(Policy = "DPoPAuthorization")]
+        public IActionResult JWT_VC_DPoP()
         {
             return View();
         }

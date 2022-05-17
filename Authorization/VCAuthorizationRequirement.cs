@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using Microsoft.AspNetCore.Http.Extensions;
+using System.Linq;
 
 namespace net_verifier.Authorization
 {
